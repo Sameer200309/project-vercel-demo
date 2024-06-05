@@ -1,0 +1,527 @@
+* {
+    font-family: 'Clash Display', sans-serif;
+}
+
+#navbarNav .nav-item .nav-link {
+    font-weight: 600;
+}
+
+#navbarNav .nav-item .nav-link span {
+    color: #FF5555;
+}
+
+.hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    /* Adjust this margin */
+}
+
+.hero-content {
+    max-width: 50%;
+    position: relative;
+}
+
+.hero-heading-container {
+    position: relative;
+    width: 120%;
+    height: auto;
+}
+
+.star-image {
+    width: 48px;
+    height: 48px;
+    background: url('./images/Star 3.png') no-repeat center center;
+    background-size: contain;
+    position: absolute;
+    top: -70px;
+    left: -60px;
+    transform: rotate(-45deg);
+}
+
+.hero-heading {
+    font-family: 'Clash Display', sans-serif;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 64px;
+    color: black;
+    text-transform: uppercase;
+    position: relative;
+    z-index: 1;
+}
+
+.hero-heading-container::before {
+    content: "";
+    background: url('./images/Group 35896.png') no-repeat center center;
+    background-size: contain;
+    position: absolute;
+    top: -150px;
+    left: 130px;
+    width: 450px;
+    height: 400px;
+    z-index: 0;
+    opacity: 1;
+}
+
+.hero-description {
+    font-family: 'Clash Display', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.hero-buttons .btn {
+    font-family: 'Clash Display', sans-serif;
+    width: 200px;
+    height: 60px;
+    border: none;
+    opacity: 1;
+    background-color: rgb(0, 0, 0);
+}
+
+.hero-buttons .btn i {
+    padding: 10px;
+}
+
+.image-container {
+    position: relative;
+    width: 100%;
+}
+
+.star-image-last {
+    width: 48px;
+    height: 48px;
+    background: url('./images/Star 8.png') no-repeat center center;
+    background-size: contain;
+    position: absolute;
+    top: 330px;
+    left: 170px;
+    transform: rotate(-45deg);
+    z-index: 1;
+}
+
+.hero-image {
+    width: 569px;
+    height: 357.74px;
+    opacity: 1;
+    margin-top: 20px;
+    position: relative;
+    z-index: 0;
+}
+
+.parent {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.image1 {
+    position: relative;
+    top: -20px;
+    left: 150px;
+}
+
+.image2 {
+    position: absolute;
+    top: 70px;
+    left: 190px;
+}
+
+.image3 {
+    position: absolute;
+    top: -10px;
+    left: 65px;
+}
+
+.image4 {
+    position: absolute;
+    top: 50px;
+    left: 226px;
+    z-index: -5;
+}
+
+.row {
+    margin: -80px 0 0 0;
+
+}
+
+
+#info {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.star-image-left {
+    width: 48px;
+    height: 48px;
+    background: url('./images/Star\ 2.png') no-repeat center center;
+    background-size: contain;
+    position: absolute;
+    top: 130%;
+    left: 50px;
+}
+
+.photo1 {
+    position: relative;
+    top: -30px;
+    left: -70px;
+}
+
+.photo2 {
+    position: absolute;
+    top: 0%;
+    left: -80px;
+}
+
+.container .row .img66 img {
+    top: 800px;
+    left: 600px;
+    position: relative;
+}
+
+#right-2 {
+    margin: 130px 0 0 0;
+    padding: 0 50px 0 0;
+
+}
+
+#right-2 img {
+    height: 80%;
+
+    top: 40px;
+    left: 500px;
+}
+
+#right-2 p {
+    letter-spacing: 0.3ch;
+    font-size: 135x;
+    color: #FF5555;
+    font-weight: 500;
+    padding: 0;
+}
+
+#right-2 h1 {
+    font-weight: 900;
+}
+
+#right-2 .list-unstyled {
+    margin: 50px 0 0 0;
+}
+
+#right-2 .list-unstyled li {
+    font-size: 19px;
+    margin-top: 20px;
+    padding-right: 20px;
+
+
+}
+
+#right-2 {
+    margin: 130px 0 0 0;
+    padding: 0 50px 0 0;
+
+}
+
+#right-2 #img13 img {
+    height: 80%;
+
+    top: 40px;
+    left: 500px;
+}
+
+#right-2 p {
+    letter-spacing: 0.3ch;
+    font-size: 135x;
+    color: #FF5555;
+    font-weight: 500;
+    padding: 0;
+}
+
+#right-2 h1 {
+    font-weight: 900;
+}
+
+#right-2 .list-unstyled {
+    margin: 50px 0 0 0;
+}
+
+#right-2 .list-unstyled li {
+    font-size: 19px;
+    margin-top: 20px;
+    padding-right: 20px;
+
+
+}
+
+#three {
+    padding: 250px 0 0 250px;
+    margin: 0 0 0 0;
+}
+
+#right-3 .list-unstyled li img {
+    padding-right: 10px;
+}
+
+
+#right-3 .list-unstyled li {
+    font-weight: 400;
+
+
+}
+
+.star-image-right {
+    width: 48px;
+    height: 48px;
+    background: url('./images/Star\ 5.png') no-repeat center center;
+    background-size: contain;
+    position: absolute;
+    top: 230%;
+    left: 1450px;
+}
+
+#right-3 {
+    margin: 130px 0 0 0;
+    padding: 0 50px 0 0;
+
+}
+
+#right-3 #img13 img {
+    height: 80%;
+
+    top: 40px;
+    left: 500px;
+}
+
+#right-3 p {
+    letter-spacing: 0.3ch;
+    font-size: 135x;
+    color: #FF5555;
+    font-weight: 500;
+    padding: 0;
+}
+
+#right-3 h1 {
+    font-weight: 900;
+}
+
+#right-3 .list-unstyled {
+    margin: 50px 0 0 0;
+}
+
+#right-3 .list-unstyled li {
+    font-size: 19px;
+    margin-top: 20px;
+    padding-right: 20px;
+
+
+}
+
+
+#right-3 .list-unstyled .text-four {
+    margin: 0 0 0 10px;
+
+}
+
+#info2 {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.photo11 {
+    position: relative;
+    top: 250px;
+    left: -80px;
+}
+
+.photo22 {
+    position: absolute;
+    top: 0%;
+    left: -80px;
+}
+
+
+
+
+/* Media Query for Mobile Viewports */
+@media (max-width: 767px) {
+    .navbar {
+        margin: 0 -60px 0 0;
+    }
+
+    .navbar-collapse {
+        width: 100%;
+    }
+
+    .hero-section {
+        flex-direction: column;
+        align-items: flex-start;
+        margin: 0 0 0 25px;
+
+    }
+
+    .hero-content {
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .hero-heading {
+        font-size: 48px;
+        line-height: 48px;
+    }
+
+    .hero-description {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .hero-buttons {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .hero-buttons .btn {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .hero-heading-container::before {
+        top: -40px;
+        left: 20px;
+        width: 300px;
+        height: 200px;
+    }
+
+    .star-image {
+        display: none;
+    }
+
+    .star-image-last {
+        top: 400px;
+        left: 50px;
+    }
+
+    .hero-image {
+        width: 100%;
+        height: auto;
+    }
+
+    .parent {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .image1,
+    .image2,
+    .image3,
+    .image4 {
+        display: none;
+    }
+
+
+}
+
+@media (max-width: 767px) {
+    #main .row {
+        flex-direction: column;
+    }
+
+
+    #main .col-md-6 {
+        width: 100%;
+    }
+
+    #main .star-image-left {
+        display: none;
+    }
+
+    #main .photo1,
+    #main .photo2 {
+        width: 100%;
+        height: auto;
+        margin: 0 0 0 100px;
+        padding: 40px 0 0 0;
+    }
+
+    #main #right-2 {
+        padding: 0 0px;
+        margin: 75px 0 0 60px;
+    }
+
+    #pic1 img {
+        display: none;
+    }
+
+    #right-2 .list-unstyled .text-secondary {
+        font-size: 15px;
+    }
+
+    #right-2 h1 {
+        font-weight: 900;
+        padding: 0 0 0 0;
+        margin: 0 0 0 0px;
+        font-size: 20px;
+    }
+}
+
+#right-2,
+#right-3 {
+    margin: 130px 0 0 0;
+    padding: 0 50px 0 0;
+}
+
+/* Adjust padding and margin for smaller viewports */
+@media (max-width: 767px) {
+    #three {
+        padding: 100px 25px;
+        margin: 0 0 0 70px;
+    }
+
+    #right-3 {
+        margin: 50px -46px;
+        padding: 0 0 0 25px;
+        /* Adjust padding for smaller screens */
+    }
+
+    #right-3 p {
+        margin-left: 0;
+    }
+
+    #right-3 h1 {
+        margin-left: 0;
+        font-size: 24px;
+    }
+
+    .fa-regular,
+    .far {
+        margin-left: 0;
+    }
+
+    .photo22 {
+        width: 100%;
+        height: auto;
+        margin: -70px 0 0 45px;
+        padding: 40px 0 0 0;
+    }
+
+    .photo11 {
+        position: absolute;
+        top: 50px;
+        left: -90px;
+        height: auto;
+        width: 100%;
+    }
+
+    .star-image-right {
+        left: 350px;
+        top: 2120px;
+
+    }
+
+}
